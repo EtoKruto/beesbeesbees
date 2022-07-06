@@ -6,5 +6,10 @@ var Grub = function() {
 };
 
 Grub.prototype.eat = function () {
-  console.log('nom nom');
+  console.log('nom nom on', this.food);
 };
+
+
+var eric = new Grub();
+
+eric.eat();
